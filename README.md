@@ -49,5 +49,5 @@
 ![mg8](image/0_8-membuat-form.PNG)
 
 ## <b>9. Style pada form </b>
-- Dengan inline css
+- Dengan internal css
 ![mg9](image/0_9-inlinecss-styleform.PNG)
