@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Lab3 Web</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Membuat Form</h1>
+        </header>
+
+        <form action="proses.php" method="post">
+            <fieldset>
+                <legend>Data Mahasiswa</legend>
+                <p>
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama">
+                </p>
+                <p>
+                    <label>Jenis Kelamin</label>
+                    <input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-laki</label>
+                    <input id="jk_p" type="radio" name="kelamin" value="P" /><label for="jk_p">Perempuan</label>
+                </p>
+                <p>
+                    <label>Program Studi</label>
+                    <select name="jurusan">
+                        <option value="ps">Psikologi</option>
+                        <option value="sm">Sastra Mesin</option>
+                        <option value="ti">Teknik Informatika</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Pilihan Kelas</label>
+                    <select name="pil_k" multiple>
+                        <option value="reg-p">Reguler-Pagi</option>
+                        <option value="reg-m">Reguler-Malam</option>
+                        <option value="week1">Akhir pekan1</option>
+                        <option value="week2">Akhir pekan2</option>
+                        <option value="week3">Akhir pekan3</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="alamat">Alamat</label>
+                    <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+                </p>
+                <p><input type="submit" value="Daftar"></p>
+            </fieldset>
+       </form>
+
+    </body>
+</html>
